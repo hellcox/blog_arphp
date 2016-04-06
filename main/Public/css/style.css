@@ -1,0 +1,77 @@
+/*--------------------整体样式--------------------*/
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-family: 宋体;
+}
+body{
+	/*background-color: green;*/
+}
+
+.main{
+	border: 1px solid pink;
+	padding: 1px;
+}
+/*--------------------头部样式--------------------*/
+.header{
+	background-color: #F1F1F1; 
+	border: 2px solid #CCCCCC;
+}
+/*--------------------导 航 栏--------------------*/
+.nav{
+	background-color: #CCCCCC;
+	margin: auto;
+	margin-top: 5px;
+	width: 1200px;
+	height: 40px;
+	text-align: center;
+}
+/*--------------------中部样式--------------------*/
+.content{
+	width: 1200px;
+	margin: 5px auto;
+	background-color: #CCCCCC;
+	overflow:hidden;
+}
+/*个人信息*/
+.introduce{
+	width: 250px;
+	height: 100%;
+	border: 1px solid #CCCCCC;
+	background-color: #F1F1F1;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+}
+.artical_card{
+	width: 939px;
+	border: 1px solid #CCCCCC;
+	background-color: #F1F1F1;
+	overflow:hidden;
+	float: right;
+}
+.artical_card_one{
+	width: 450px;
+	height: 112px;
+	padding: 5px 5px;
+	border: 1px solid #CCCCCC;
+	background-color: #F1F2F2;
+	margin: 4px 0 4px 5px;
+	overflow: hidden;
+	float: left;
+}
+.title{
+	text-align: center;
+}
+.author{
+	font-size: 12px;
+	font-family: 宋体;
+	text-align: center;
+}
+/*--------------------尾部样式--------------------*/
+.footer{
+	background-color: #F1F1F1; 
+	border: 2px solid #CCCCCC;
+	height: 50px;
+}
