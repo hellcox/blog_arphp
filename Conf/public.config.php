@@ -2,14 +2,18 @@
 /**
  * Ar default public config file.
  *
- * @author ycassnr <ycassnr@gmail.com>
+ * @author hellcox <hellcox@163.com>
  */
 return array(
     'moduleLists' => array(
         'main',
     ),
+    //上传目录
+    'UPLOAD_DIR' => AR_ROOT_PATH . 'Public' . DS . 'Upload' . DS,
+    //扩展目录
+    'EXTENSION_DIR' => AR_ROOT_PATH . 'main' . DS . 'Ext' . DS,
     //开启/关闭trace(调试信息)显示
-    'DEBUG_SHOW_TRACE' => TRUE,
+    'DEBUG_SHOW_TRACE' => false,
     //组件配置
     'components' => array(
         //懒惰加载

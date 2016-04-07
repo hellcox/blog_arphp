@@ -11,7 +11,26 @@
 <body><div class="main">
 <!-- header box -->
 <div class="header">
-	<p>&nbsp;</p>
+	<div class="header_bar">
+		<div class="logo">
+			<P>我的个人博客 | 一梦一轮回</P>
+		</div>
+		<div class="search">
+			<form action="" method="post">
+				<input class="search_text" class="search_bar" type="text"></input>
+				<button class="search_button">搜索</button>
+				<!-- <input class="search_button" type="submit" value="搜索"></input> -->
+			</form>
+		</div>
+		<div class="login">
+			<a href="">登录</a>
+			<!-- <a href="">登录</a> -->
+		</div>
+		<div class="login" style="display: none;">
+			<a href="">hello</a>
+			<a href="">管理员</a>
+		</div>
+	</div>
 </div>
 <!-- navigation box -->
 <div class="nav">
