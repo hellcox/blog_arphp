@@ -13,10 +13,10 @@ return array(
     //组件配置
     'components' => array(
         //懒惰加载
-        'lazy' => true,
+        'lazy' => TRUE,
         'db' => array(
         	//懒惰加载
-            'lazy' => true,
+            'lazy' => TRUE,
             // mysql数据库组件
             'mysql' => array(
                 'config' => array(

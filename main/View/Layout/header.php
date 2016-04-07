@@ -13,3 +13,14 @@
 <div class="header">
 	<p>&nbsp;</p>
 </div>
+<!-- navigation box -->
+<div class="nav">
+	<div class="nav_bar">
+		<a href=""><span>首页</span></a>
+		<a href=""><span>技术技巧</span></a>
+		<a href=""><span>模板分享</span></a>
+		<a href=""><span>个人日记</span></a>
+		<a href=""><span>关于我们</span></a>
+		<a href=""><span>留言板</span></a>
+	</div>
+</div>

@@ -2,15 +2,13 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-size: 18px;
-	font-family: 宋体;
 }
 body{
 	/*background-color: green;*/
 }
-
 .main{
-	border: 1px solid pink;
+	/*border: 1px solid pink;*/
+	background-color: #F1F1F1;
 	padding: 1px;
 }
 /*--------------------头部样式--------------------*/
@@ -18,14 +16,46 @@ body{
 	background-color: #F1F1F1; 
 	border: 2px solid #CCCCCC;
 }
-/*--------------------导 航 栏--------------------*/
+/*导 航 栏*/
 .nav{
-	background-color: #CCCCCC;
+	background-color: #2D8CC6;
 	margin: auto;
 	margin-top: 5px;
-	width: 1200px;
+	width: 100%;
 	height: 40px;
 	text-align: center;
+	color: #fff;
+
+}
+/*导航栏 box*/
+.nav_bar{
+	/*position: absolute;*/
+	/*border-top: 1px solid red;*/
+	/*border-bottom: 1px solid red;*/
+	/*border-left: 1px solid #cccccc;*/
+	width: 1200px;
+	height: 40px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+/*导航栏链接*/
+.nav_bar a:link,.nav_bar a:visited{
+	display:block;
+	font-weight:bold;
+	font-size:20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	background-color:#2D8CC6;
+	width:186px;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+.nav_bar a:hover,.nav_bar a:active{
+	background-color: #7A991A;
 }
 /*--------------------中部样式--------------------*/
 .content{
@@ -44,6 +74,11 @@ body{
 	float: left;
 	text-align: center;
 }
+.avatar{
+	border: 2px solid #CCCCCC;
+	width: 80px; 
+	height: 70px;
+}
 .artical_card{
 	width: 939px;
 	border: 1px solid #CCCCCC;
@@ -60,6 +95,8 @@ body{
 	margin: 4px 0 4px 5px;
 	overflow: hidden;
 	float: left;
+	font-size: 16px;
+	font-family: 宋体;
 }
 .title{
 	text-align: center;
